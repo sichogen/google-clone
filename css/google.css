@@ -187,3 +187,131 @@ body{
     width: 100%;
   }
 }
+
+
+@media (max-width: 310px){
+    body{
+        overflow: none;
+        max-height: 100vh;
+    }
+    .nav{
+        float: right;
+    }
+    .main-icon{
+        margin: 40px 20px;
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .first, .lass{
+        font-size: 6px;
+        display: inline-block;
+    }
+    .footer{
+        height: 40px;
+        display: block;
+    }
+    .img{
+        width: 60px;
+        height: 30px;
+    }
+    .bt-a{
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 360px){
+    body{
+        overflow: none;
+        max-height: 100vh;
+    }
+    .nav{
+        float: right;
+    }
+    .main-icon{
+        margin: 40px 20px;
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .first, .lass{
+        font-size: 6px;
+        display: inline-block;
+    }
+    .footer{
+        height: 70px;
+        display: block;
+    }
+}
+
+@media (max-width: 460px){
+    body{
+        overflow-y: hidden;
+        max-height: 50vh;
+    }
+    .nav{
+        float: right;
+    }
+    .main-icon{
+        margin: 40px 20px;
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .bottom{
+        overflow-x: hidden;
+        margin-top: 60px;
+
+    }
+    .footer{
+        height: 70px;
+        display: block;
+    }
+    .bt{
+        display: block;
+    }
+}
+
+
+@media (max-width: 602px){
+    body{
+        overflow-y: hidden;
+        max-height: 50vh;
+    }
+    .nav{
+        float: right;
+    }
+    .main-icon{
+        margin: 40px 20px;
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .bottom{
+        overflow-x: hidden;
+        margin-top: 85px;
+    }
+    .footer{
+        height: 70px;
+        display: block;
+    }
+
+    .img{
+        width: 280px;
+        height: 60px;
+    }
+}
+
